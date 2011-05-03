@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <script src="http://usepow.com"></script>
+    <style type="text/css">
+      body { font-family: "Century Gothic", sans-serif }
+      .slide p { text-align: center; margin: 0 5% }
+      a, a:visited, a:active, a:hover { color: #FA0 }
+      ul { padding-left: 10%; margin-top: 5% }
+      ul ul { margin-top: 0 }
+      .slide { vertical-align: top ! important }
+      .slide h1 { font-size: 75em ! important }
+      .slide.title h1 { font-size: 100em ! important }
+      .slide.title { vertical-align: middle ! important }
+      img.left { float: left; margin-right: 1% }
+      img.right { float: right; margin-left: 1% }
+    </style>
+  </head>
+  <body>
+    <div id="slides">
+      <div class="slide title">
+        <h1>Sean Cribbs</h1>
+        <p><img src="team_cribbs.png"> <img src="seancribbs-small.jpg"></p>
+        <p><a href="mailto:sean@basho.com">sean@basho.com</a> <a href="http://twitter.com/seancribbs">@seancribbs</a></p>
+      </div>
+      <div class="slide title">
+        <p><img src="basho.gif"></p>
+        <p><a href="http://jsconf.basho.com">jsconf.basho.com</a></p>
+      </div>
+      <div class="slide title">
+        <h1>JavaScript Apps on Riak</h1>
+      </div>
+      <div class="slide">
+        <h1>What is Riak?</h1>
+        <ul>
+          <li>Distributed</li>
+          <li>Fault-Tolerant, Replicated</li>
+          <li>Key-Value/Document</li>
+        </ul>
+        <p><img src="riak_logo_animated1.gif" width="80%"></p>
+      </div>
+      <div class="slide title">
+        <h1>Riak loves JavaScript</h1>
+        <p><img src="thinking.png"></p>
+      </div>
+      <div class="slide">
+        <h1>Riak loves JavaScript</h1>
+        <ul>
+          <li>Key-Value ops are HTTP!
+            <ul>
+              <li>GET, POST, PUT, DELETE</li>
+              <li>Content-Type matters</li>
+            </ul>
+            <br />
+          </li>
+          <li>MapReduce with embedded SpiderMonkey</li>
+        </ul>
+        <p><img src="yay.png"></p>
+      </div>
+      <div class="slide">
+        <h1>Why should I care?</h1>
+        <p style="margin-top: 10%"><strong>CouchDB</strong> has all that. HTTP, JavaScript, and MapReduce!</p>
+        <p><img src="challenge.png" style="margin-top: 5%"/></p>
+      </div>
+      <div class="slide">
+        <h1>Why should I care?</h1>
+        <p style="margin-top: 5%">... but <strong>Riak needs no
+            &ldquo;CouchApp&rdquo;</strong></p>
+        <p><img src="trollface.jpg" width="50%"></p>
+      </div>
+      <div class="slide">
+        <h1>Why should I care?</h1>
+        <ul style="margin-top: 0">
+          <li>Pure in-browser apps: HTML, CSS, JS</li>
+          <li>Deploy with <code>curl</code></li>
+          <li>Scale. <em>No, really.</em></li>
+        </ul>
+        <p><img src="joyent.png"></p>
+      </div>
+      <div class="slide">
+        <h1>Possibilities</h1>
+        <ul>
+          <li>Intranet apps</li>
+          <li>Web-based mobile apps</li>
+          <li>Asset storage for your server-side
+          app<br/>(<code>X-Accel-Redirect</code> on nginx)</li>
+        </ul>
+      </div>
+      <div class="slide title">
+        <h1>Two Sample Apps</h1>
+        <h2><a href="https://github.com/adamhunter/rekon">Rekon</a>
+          &amp; <a href="https://github.com/seancribbs/yakriak">YakRiak</a></h2>
+      </div>
+      <div class="slide">
+        <h1>Rekon</h1>
+        <ul style="margin: 0 0 2%">
+          <li>Futon/phpMySQL for Riak</li>
+          <li>Explore your cluster w/simple KV ops</li>
+          <li>Sammy.js</li>
+        </ul>
+        <h1>YakRiak</h1>
+        <ul style="margin: 0 0 2%">
+          <li>Ajax polling chatroom</li>
+          <li>MapReduce to gather messages</li>
+          <li>Plain jQuery</li>
+        </ul>
+      </div>
+      <div class="slide">
+        <h1>Happy Fun Demo Time!</h1>
+        <p><img src="puddi.png" width="100%"/></p>
+      </div>
+      <div class="slide title">
+        <h1>It's Derpscale.</h1>
+        <p><img src="puddikid.jpg"></p>
+        <h2>But it's easy. <br/> What will you build?</h2>
+      </div>
+      <div class="slide">
+        <h1>Play!</h1>
+        <p><a href="http://riakapps.basho.com:8098/">http://riakapps.basho.com:8098/</a></p>
+        <ul>
+          <li>Slides: <a href="http://riakapps.basho.com:8098/riak/jsconf/slides">/riak/jsconf/slides</a></li>
+          <li>Rekon: <a href="http://riakapps.basho.com:8098/riak/rekon/go">/riak/rekon/go</a></li>
+          <li>YakRiak: <a href="http://riakapps.basho.com:8098/riak/yak/index.html">/riak/yak/index.html</a></li>
+        </ul>
+        <p><br/><strong>Please be nice <br />and don't hose my cluster.</strong></p>
+      </div>
+      <div class="slide title">
+        <h1>We're hiring!</h1>
+        <p><img src="basho.gif"></p>
+        <p><a href="riak@basho.com">riak@basho.com</a></p>
+      </div>
+      <div class="slide title">
+        <h1>Thanks!</h1>
+        <p><img src="victory.jpg"></p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -74,7 +74,7 @@
           <li>Deploy with <code>curl</code></li>
           <li>Scale. <em>No, really.</em></li>
         </ul>
-        <p><img src="joyent.png"></p>
+        <p><img src="joyent.png" width="75%"></p>
       </div>
       <div class="slide">
         <h1>Possibilities</h1>
